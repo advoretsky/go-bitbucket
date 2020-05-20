@@ -1,4 +1,4 @@
-module go-bitbucket
+module github.com/advoretsky/go-bitbucket
 
 go 1.14
 
