@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"strings"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 // PagingApiService provides paging for all paginated APIs
