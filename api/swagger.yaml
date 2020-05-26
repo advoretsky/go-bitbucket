@@ -13642,6 +13642,7 @@ definitions:
           format: "date-time"
         size:
           type: "integer"
+          format: "int64"
         language:
           type: "string"
         has_issues:
