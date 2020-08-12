@@ -9444,6 +9444,14 @@ paths:
         required: false
         type: "string"
         x-exportParamName: "Sort"
+      - name: "pagelen"
+        in: "query"
+        description: "How many search results to retrieve per page"
+        required: false
+        type: "integer"
+        default: 10
+        format: "int32"
+        x-exportParamName: "Pagelen"
       responses:
         200:
           description: "A paginated list of tags matching any filter criteria that\

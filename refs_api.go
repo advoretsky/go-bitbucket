@@ -491,6 +491,9 @@ func (a *RefsApiService) RepositoriesUsernameRepoSlugRefsTagsGet(ctx context.Con
 	if localVarTempParam, localVarOk := localVarOptionals["sort"].(string); localVarOk {
 		localVarQueryParams.Add("sort", parameterToString(localVarTempParam, ""))
 	}
+	if localVarTempParam, localVarOk := localVarOptionals["pagelen"].(int32); localVarOk {
+		localVarQueryParams.Add("pagelen", parameterToString(localVarTempParam, ""))
+	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{ "application/json",  }
 
